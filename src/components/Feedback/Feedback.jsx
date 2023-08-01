@@ -36,16 +36,7 @@ const App = () => {
   const hasFeedback = totalFeedback > 0;
 
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 30,
-        color: '#010101',
-      }}
-    >
+    <div>
       <Section title="Please leave feedback">
         <FeedbackOptions
           options={['good', 'neutral', 'bad']}
